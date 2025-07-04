@@ -1,4 +1,4 @@
-public class acadamicbuilding {
+public class acadamic {
 private boolean isLibraryAvailable;
     private boolean isAuditoriumAvailable;
 }
