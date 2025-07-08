@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class AgeCalculator {
     public static void main(String[]args) {
         Scanner inputScanner = new Scanner(System.in);
+        System.err.println("Enter your birth year:");
         int YearofBirth=inputScanner.nextInt();
         int currentYear=LocalDate.now().getYear();
         System.out.println(YearofBirth-currentYear);
