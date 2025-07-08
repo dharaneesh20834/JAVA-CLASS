@@ -10,6 +10,8 @@ public class AgeCalculator1 {
         LocalDate BirthDate=LocalDate.parse(dateofBirth);
         int YearofBirth=BirthDate.getYear();
         int currentYear=LocalDate.now().getYear();
+        int age=YearofBirth-currentYear;
+        System.out.println("your age"+age);
     }
 
 }
