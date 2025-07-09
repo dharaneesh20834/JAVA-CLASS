@@ -3,7 +3,7 @@ import java.io.File;
 
 public class FileHandling {
     public static void main(String[] args) {
-        File file=new File("");
+        File file=new File("example.txt");
         if(file.exists()){
             System.out.println("File.exist: "+ file.getAbsolutePath());
         }
