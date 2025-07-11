@@ -13,12 +13,28 @@ public class ListExample {
         names.add("navi");
         names.add("rohit");
 
-        System.out.println(names);
+        names.forEach(System.out::println);
         names.sort(Comparator.reverseOrder());
-        for (int i = 0; i < 10; i++) {
-            System.out.println(names.get(i));
-            
+
+        System.out.println(names);
+        
         }
     }
 
-}
+
+
+
+
+
+
+
+
+
+//method 1 for line 20
+//names.sort(Comparator.reverseOrder());
+  //for (int i = 0; i < 6; i++) {
+    //System.out.println(names.get(i));
+            
+//method 2 for line 16
+ //names.forEach(System.out::println);
+ //  names.sort(Comparator.reverseOrder());
